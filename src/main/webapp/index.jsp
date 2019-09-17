@@ -1,13 +1,4 @@
-<%@ page language="java" pageEncoding="UTF-8" %>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>..:: Dungeons & Dragons ::..</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<%@ include file="components/head.jsp" %>
 <body>
 
-</body>
-</html>
+<%@ include file="components/footer.jsp" %>
