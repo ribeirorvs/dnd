@@ -1,6 +1,5 @@
 <%@ include file="components/head.jsp"%>
 <%@ include file="components/header.jsp"%>
-<section class="row">
 	<article class="col-md-12">
 		<form action="SearchTalent.do" method="post">
 			<fieldset>
@@ -127,5 +126,4 @@
 			</fieldset>
 		</form>
 	</article>
-</section>
 <%@ include file="components/footer.jsp"%>
