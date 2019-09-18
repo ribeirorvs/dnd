@@ -1,4 +1,4 @@
-<article class="col-md-12">
+<article class="col-md-3">
 	<form action="SearchTalent.do" method="post">
 		<fieldset>
 			<legend>Raça</legend>
