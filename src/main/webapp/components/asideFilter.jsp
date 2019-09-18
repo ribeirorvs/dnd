@@ -1,15 +1,15 @@
-<article class="col-md-3">
+<article class="col-sm-3">
 	<form action="SearchTalent.do" method="post">
-		<fieldset>
+		<fieldset class="form-group">
 			<legend>Raça</legend>
-			<select name="race" id="race">
+			<select name="race" class="form-control" id="race">
 				<option value="all">Selecione</option>
 				<option value="barbaro">Barbaro</option>
 			</select>
 		</fieldset>
-		<fieldset>
+		<fieldset class="form-group">
 			<legend>Nivel</legend>
-			<select name="nivel" id="nivel">
+			<select name="nivel" class="form-control" id="nivel">
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -32,7 +32,7 @@
 				<option value="20">20</option>
 			</select>
 		</fieldset>
-		<fieldset>
+		<fieldset class="form-group">
 			<legend>Estilo de Combate</legend>
 			<input type="radio" name="estilos[]" value="Uma Mao">Uma M&atilde;o <br /> 
 			<input type="radio" name="estilos[]" value="Duas Maos">Duas M&atilde;os <br /> 
