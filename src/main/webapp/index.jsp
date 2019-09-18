@@ -56,6 +56,12 @@
 			<input type="radio" name="tipo[]" value="Exaltado">Exaltado <br />
 			<input type="radio" name="tipo[]" value="Épico">Épico <br />
 			<input type="checkbox" name="guerreiro" value="s">Talento de Guerreiro <br />
+			<label for="habilidade">Habilidade</label>
+			<input type="checkbox" name="habilidade" value="movimento">Movimento R&aacute;pido <br />
+			<input type="checkbox" name="habilidade" value="furia">Furia <br />
+			<input type="checkbox" name="habilidade" value="sentido">Sentido Sobrenatural <br />
+			<input type="checkbox" name="habilidade" value="sentir">Sentir Armadilhas <br />
+			<input type="checkbox" name="habilidade" value="reducao">Redu&ccedil;&atilde;o de Dano <br />
 		</form>
 	</article>
 </section>
