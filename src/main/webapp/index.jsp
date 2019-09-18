@@ -49,6 +49,13 @@
 			<input type="radio" name="bonus[]" value="RM">RM <br />
 			<input type="radio" name="bonus[]" value="RD">Redu&ccedil;&atilde;o de Dano <br />
 			<input type="radio" name="bonus[]" value="Outros">Outros Bonus <br />
+			<label for="type">Tipo</label>
+			<input type="radio" name="tipo[]" value="Geral">Geral <br />
+			<input type="radio" name="tipo[]" value="Metamágico">Metam&aacute;gico <br />
+			<input type="radio" name="tipo[]" value="Criação de Item">Cria&ccedil;&atilde;o de Item <br />
+			<input type="radio" name="tipo[]" value="Exaltado">Exaltado <br />
+			<input type="radio" name="tipo[]" value="Épico">Épico <br />
+			<input type="checkbox" name="guerreiro" value="s">Talento de Guerreiro <br />
 		</form>
 	</article>
 </section>
