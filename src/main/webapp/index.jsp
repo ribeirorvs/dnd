@@ -62,6 +62,13 @@
 			<input type="checkbox" name="habilidade" value="sentido">Sentido Sobrenatural <br />
 			<input type="checkbox" name="habilidade" value="sentir">Sentir Armadilhas <br />
 			<input type="checkbox" name="habilidade" value="reducao">Redu&ccedil;&atilde;o de Dano <br />
+			<label for="magia">Magia</label>
+			<input type="checkbox" name="magia" value="alcance">Alcance <br />
+			<input type="checkbox" name="magia" value="duracao">Dura&ccedil;&atilde;o <br />
+			<input type="checkbox" name="magia" value="area">Area <br />
+			<input type="checkbox" name="magia[]" value="nivel">Nivel <br />
+			<input type="checkbox" name="magia[]" value="Dano">Dano <br />
+			<input type="checkbox" name="magia[]" value="Conjurador">Nivel de Conjurador <br />
 		</form>
 	</article>
 </section>
