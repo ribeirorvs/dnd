@@ -43,6 +43,12 @@
 			<input type="radio" name="bonus[]" value="Dano">Dano <br />
 			<input type="radio" name="bonus[]" value="Fortitude">Fortitude <br />
 			<input type="radio" name="bonus[]" value="Reflexos">Reflexos <br /> 
+			<input type="radio" name="bonus[]" value="Vontade">Vontade <br />
+			<input type="radio" name="bonus[]" value="Iniciativa">Iniciativa <br />
+			<input type="radio" name="bonus[]" value="Deslocamento">Deslocamento <br />
+			<input type="radio" name="bonus[]" value="RM">RM <br />
+			<input type="radio" name="bonus[]" value="RD">Redu&ccedil;&atilde;o de Dano <br />
+			<input type="radio" name="bonus[]" value="Outros">Outros Bonus <br />
 		</form>
 	</article>
 </section>
