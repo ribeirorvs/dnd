@@ -69,6 +69,43 @@
 			<input type="checkbox" name="magia[]" value="nivel">Nivel <br />
 			<input type="checkbox" name="magia[]" value="Dano">Dano <br />
 			<input type="checkbox" name="magia[]" value="Conjurador">Nivel de Conjurador <br />
+			<label for="skill">Pericias</label>
+			<input type="checkbox" name="pericia[]" value="Abrir Fechaduras">Abrir Fechaduras <br />
+			<input type="checkbox" name="pericia[]" value="Acrobacia">Acrobacias <br />
+			<input type="checkbox" name="pericia[]" value="Adestrar Animais">Adestrar Animais <br />
+			<input type="checkbox" name="pericia[]" value="Arte da Fuga">Arte da Fuga <br />
+			<input type="checkbox" name="pericia[]" value="Atuação">Atua&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="avaliação">Avalia&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Blefar">Blefar <br />
+			<input type="checkbox" name="pericia[]" value="Cavalgar">Cavalgar <br />
+			<input type="checkbox" name="pericia[]" value="Concentracao">Concentra&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Conhecimento">Conhecimentos <br />
+			<input type="checkbox" name="pericia[]" value="Cura">Cura <br />
+			<input type="checkbox" name="pericia[]" value="Decifrar Escrita">Decifrar Escrita <br />
+			<input type="checkbox" name="pericia[]" value="Diplomacia">Diplomacia <br />
+			<input type="checkbox" name="pericia[]" value="Disfarce">Disfarce <br />
+			<input type="checkbox" name="pericia[]" value="Equilibrio">Equil&iacute;brio <br />
+			<input type="checkbox" name="pericia[]" value="Escalar">Escalar <br />
+			<input type="checkbox" name="pericia[]" value="Esconder">Esconder-se <br />
+			<input type="checkbox" name="pericia[]" value="Falar Idioma">Falar Idiomas <br />
+			<input type="checkbox" name="pericia[]" value="Falsificação">Falsifica&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Furtividade">Furtividade <br />
+			<input type="checkbox" name="pericia[]" value="Identificar Magia">Identificar Magia <br />
+			<input type="checkbox" name="pericia[]" value="Intimidação">Intimida&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Natação">Nata&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Observar">Observar <br />
+			<input type="checkbox" name="pericia[]" value="Obter Informação">Obter Informa&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Oficios">Of&iacute;cios <br />
+			<input type="checkbox" name="pericia[]" value="Operar Mecanismo">Operar Mecanismo <br />
+			<input type="checkbox" name="pericia[]" value="Ouvir">Ouvir <br />
+			<input type="checkbox" name="pericia[]" value="Punga">Prestidigita&ccedil;&atilde;o/Punga <br />
+			<input type="checkbox" name="pericia[]" value="Procurar">Procurar <br />
+			<input type="checkbox" name="pericia[]" value="Profissão">Profiss&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Saltar">Saltar <br />
+			<input type="checkbox" name="pericia[]" value="Sentir Motivacao">Sentir Motiva&ccedil;&atilde;o <br />
+			<input type="checkbox" name="pericia[]" value="Sobrevivencia">Sobreviv&ecirc;ncia <br />
+			<input type="checkbox" name="pericia[]" value="Usar Cordas">Usar Cordas <br />
+			<input type="checkbox" name="pericia[]" value="Usar Instrumento Magico">Usar Instrumento M&aacute;gico
 		</form>
 	</article>
 </section>
