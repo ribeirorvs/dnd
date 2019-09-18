@@ -35,7 +35,14 @@
 			<input type="radio" name="estilos[]" value="Distancia">A Dist&acirc;ncia <br /> 
 			<input type="radio" name="estilos[]" value="Duas Armas">Duas Armas <br /> 
 			<input type="radio" name="estilos[]" value="Montado">Combate Montado <br /> 
-			<input type="radio" name="estilos[]" value="Especial" title="Manobas especiais: Encontr&atilde;o, Investida, etc.">Ataques Especiais <br /> 
+			<input type="radio" name="estilos[]" value="Especial" title="Manobas especiais: Encontr&atilde;o, Investida, etc.">Ataques Especiais <br />
+			<label for="bonus">Bonus</label>
+			<input type="radio" name="bonus[]" value="Ataque">Ataque <br />
+			<input type="radio" name="bonus[]" value="CA">CA <br />
+			<input type="radio" name="bonus[]" value="PV">PV <br />
+			<input type="radio" name="bonus[]" value="Dano">Dano <br />
+			<input type="radio" name="bonus[]" value="Fortitude">Fortitude <br />
+			<input type="radio" name="bonus[]" value="Reflexos">Reflexos <br /> 
 		</form>
 	</article>
 </section>
