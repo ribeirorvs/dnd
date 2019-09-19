@@ -1,7 +1,7 @@
 <article class="col-sm-3">
 	<form action="SearchTalent.do" method="post">
 		<fieldset class="form-group">
-			<legend>Raça</legend>
+			<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#race">Raça</button>
 			<select name="race" class="form-control" id="race">
 				<option value="all">Selecione</option>
 				<option value="barbaro">Barbaro</option>
