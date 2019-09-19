@@ -59,211 +59,211 @@
 		<fieldset>
 			<legend>Bonus</legend>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Ataque">Ataque
+				<input type="radio" name="bonus[]" class="form-check-input" value="Ataque">Ataque
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="CA">CA
+				<input type="radio" name="bonus[]" class="form-check-input" value="CA">CA
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="PV">PV
+				<input type="radio" name="bonus[]" class="form-check-input" value="PV">PV
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Dano">Dano
+				<input type="radio" name="bonus[]" class="form-check-input" value="Dano">Dano
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Fortitude">Fortitude
+				<input type="radio" name="bonus[]" class="form-check-input" value="Fortitude">Fortitude
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Reflexos">Reflexos
+				<input type="radio" name="bonus[]" class="form-check-input" value="Reflexos">Reflexos
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Vontade">Vontade
+				<input type="radio" name="bonus[]" class="form-check-input" value="Vontade">Vontade
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Iniciativa">Iniciativa
+				<input type="radio" name="bonus[]" class="form-check-input" value="Iniciativa">Iniciativa
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Deslocamento">Deslocamento
+				<input type="radio" name="bonus[]" class="form-check-input" value="Deslocamento">Deslocamento
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="RM">RM
+				<input type="radio" name="bonus[]" class="form-check-input" value="RM">RM
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="RD">Redu&ccedil;&atilde;o de Dano
+				<input type="radio" name="bonus[]" class="form-check-input" value="RD">Redu&ccedil;&atilde;o de Dano
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="bonus[]" value="Outros">Outros Bonus
+				<input type="radio" name="bonus[]" class="form-check-input" value="Outros">Outros Bonus
 			</label>
 		</fieldset>
 		<fieldset>
 			<legend>Tipo</legend>
 			<label class="form-check-label">
-				<input type="radio" name="tipo[]" value="Geral">Geral
+				<input type="radio" name="tipo[]" class="form-check-input" value="Geral">Geral
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="tipo[]" value="Metamágico">Metam&aacute;gico
+				<input type="radio" name="tipo[]" class="form-check-input" value="Metamágico">Metam&aacute;gico
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="tipo[]" value="Criação de Item">Cria&ccedil;&atilde;o de Item
+				<input type="radio" name="tipo[]" class="form-check-input" value="Criação de Item">Cria&ccedil;&atilde;o de Item
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="tipo[]" value="Exaltado">Exaltado
+				<input type="radio" name="tipo[]" class="form-check-input" value="Exaltado">Exaltado
 			</label>
 			<label class="form-check-label">
-				<input type="radio" name="tipo[]" value="Épico">Épico
+				<input type="radio" name="tipo[]" class="form-check-input" value="Épico">Épico
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="guerreiro" value="s">Talento de Guerreiro
+				<input type="checkbox" name="guerreiro" class="form-check-input" value="s">Talento de Guerreiro
 			</label>
 		</fieldset>
 		<fieldset>
 			<legend>Habilidade</legend>	
 			<label class="form-check-label">
-				<input type="checkbox" name="habilidade" value="movimento">Movimento R&aacute;pido
+				<input type="checkbox" name="habilidade" class="form-check-input" value="movimento">Movimento R&aacute;pido
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="habilidade" value="furia">Furia
+				<input type="checkbox" name="habilidade" class="form-check-input" value="furia">Furia
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="habilidade" value="sentido">Sentido Sobrenatural
+				<input type="checkbox" name="habilidade" class="form-check-input" value="sentido">Sentido Sobrenatural
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="habilidade" value="sentir">Sentir Armadilhas
+				<input type="checkbox" name="habilidade" class="form-check-input" value="sentir">Sentir Armadilhas
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="habilidade" value="reducao">Redu&ccedil;&atilde;o de Dano
+				<input type="checkbox" name="habilidade" class="form-check-input" value="reducao">Redu&ccedil;&atilde;o de Dano
 			</label>
 		</fieldset>
 		<fieldset>
 			<legend>Magia</legend>
 			<label class="form-check-label">
-				<input type="checkbox" name="magia" value="alcance">Alcance
+				<input type="checkbox" name="magia" class="form-check-input" value="alcance">Alcance
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="magia" value="duracao">Dura&ccedil;&atilde;o
+				<input type="checkbox" name="magia" class="form-check-input" value="duracao">Dura&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="magia" value="area">Area
+				<input type="checkbox" name="magia" class="form-check-input" value="area">Area
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="magia[]" value="nivel">Nivel
+				<input type="checkbox" name="magia[]" class="form-check-input" value="nivel">Nivel
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="magia[]" value="Dano">Dano
+				<input type="checkbox" name="magia[]" class="form-check-input" value="Dano">Dano
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="magia[]" value="Conjurador">Nivel de Conjurador
+				<input type="checkbox" name="magia[]" class="form-check-input" value="Conjurador">Nivel de Conjurador
 			</label>
 		</fieldset>
 		<fieldset>
 			<legend>Pericias</legend>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Abrir Fechaduras">Abrir Fechaduras
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Abrir Fechaduras">Abrir Fechaduras
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Acrobacia">Acrobacias
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Acrobacia">Acrobacias
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Adestrar Animais">Adestrar Animais
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Adestrar Animais">Adestrar Animais
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Arte da Fuga">Arte da Fuga
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Arte da Fuga">Arte da Fuga
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Atuação">Atua&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Atuação">Atua&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="avaliação">Avalia&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="avaliação">Avalia&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Blefar">Blefar
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Blefar">Blefar
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Cavalgar">Cavalgar
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Cavalgar">Cavalgar
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Concentracao">Concentra&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Concentracao">Concentra&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Conhecimento">Conhecimentos
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Conhecimento">Conhecimentos
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Cura">Cura
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Cura">Cura
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Decifrar Escrita">Decifrar Escrita
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Decifrar Escrita">Decifrar Escrita
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Diplomacia">Diplomacia
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Diplomacia">Diplomacia
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Disfarce">Disfarce
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Disfarce">Disfarce
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Equilibrio">Equil&iacute;brio
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Equilibrio">Equil&iacute;brio
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Escalar">Escalar
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Escalar">Escalar
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Esconder">Esconder-se
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Esconder">Esconder-se
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Falar Idioma">Falar Idiomas
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Falar Idioma">Falar Idiomas
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Falsificação">Falsifica&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Falsificação">Falsifica&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Furtividade">Furtividade
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Furtividade">Furtividade
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Identificar Magia">Identificar Magia
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Identificar Magia">Identificar Magia
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Intimidação">Intimida&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Intimidação">Intimida&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Natação">Nata&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Natação">Nata&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Observar">Observar
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Observar">Observar
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Obter Informação">Obter Informa&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Obter Informação">Obter Informa&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Oficios">Of&iacute;cios
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Oficios">Of&iacute;cios
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Operar Mecanismo">Operar Mecanismo
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Operar Mecanismo">Operar Mecanismo
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Ouvir">Ouvir
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Ouvir">Ouvir
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Punga">Prestidigita&ccedil;&atilde;o/Punga
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Punga">Prestidigita&ccedil;&atilde;o/Punga
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Procurar">Procurar
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Procurar">Procurar
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Profissão">Profiss&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Profissão">Profiss&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Saltar">Saltar
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Saltar">Saltar
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Sentir Motivacao">Sentir Motiva&ccedil;&atilde;o
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Sentir Motivacao">Sentir Motiva&ccedil;&atilde;o
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Sobrevivencia">Sobreviv&ecirc;ncia
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Sobrevivencia">Sobreviv&ecirc;ncia
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Usar Cordas">Usar Cordas
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Usar Cordas">Usar Cordas
 			</label>
 			<label class="form-check-label">
-				<input type="checkbox" name="pericia[]" value="Usar Instrumento Magico">Usar Instrumento M&aacute;gico
+				<input type="checkbox" name="pericia[]" class="form-check-input" value="Usar Instrumento Magico">Usar Instrumento M&aacute;gico
 			</label>
 		</fieldset>
 	</form>
