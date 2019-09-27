@@ -1,4 +1,4 @@
-<article class="col-sm-3">
+<nav class="col-sm-3">
 	<section class="list-group">
 		<form action="SearchTalent.do" method="post">
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#raceDiv">Raça</a>
@@ -419,4 +419,4 @@
 			</div>
 		</form>
 	</section>
-</article>
+</nav>
