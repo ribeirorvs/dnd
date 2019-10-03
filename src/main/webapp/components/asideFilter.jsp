@@ -235,7 +235,7 @@
 				</fieldset>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#periciaDiv">Pericia</a>
-			<div id="magiaDiv" class="collapse">
+			<div id="periciaDiv" class="collapse">
 				<fieldset class="form-check">
 					<label class="form-check-label">
 						<input type="checkbox" name="pericia[]" class="form-check-input" value="Abrir Fechaduras">Abrir Fechaduras
