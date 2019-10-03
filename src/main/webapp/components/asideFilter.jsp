@@ -74,6 +74,7 @@
 						<input type="radio" name="estilos[]" class="form-check-input" value="Especial" title="Manobas especiais: Encontrão, Investida, etc.">Ataques Especiais
 					</label>
 				</fieldset>
+				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#bonusDiv">Bonus</a>
 			<div id="bonusDiv" class="collapse">
@@ -138,6 +139,7 @@
 						<input type="radio" name="bonus[]" class="form-check-input" value="Outros">Outros Bonus
 					</label>
 				</fieldset>
+				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#tipoDiv">Tipo</a>
 			<div id="tipoDiv" class="collapse">
@@ -171,6 +173,7 @@
 						<input type="checkbox" name="guerreiro" class="form-check-input" value="s">Talento de Guerreiro
 					</label>
 				</fieldset>
+				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#habilidadeDiv">Habilidade</a>
 			<div id="habilidadeDiv" class="collapse">
@@ -200,6 +203,7 @@
 						<input type="checkbox" name="habilidade" class="form-check-input" value="reducao">Redu&ccedil;&atilde;o de Dano
 					</label>
 				</fieldset>
+				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#magiaDiv">Magia</a>
 			<div id="magiaDiv" class="collapse">
@@ -233,6 +237,7 @@
 						<input type="checkbox" name="magia[]" class="form-check-input" value="Conjurador">Nivel de Conjurador
 					</label>
 				</fieldset>
+				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#periciaDiv">Pericia</a>
 			<div id="periciaDiv" class="collapse">
@@ -416,6 +421,7 @@
 						<input type="checkbox" name="pericia[]" class="form-check-input" value="Usar Instrumento Magico">Usar Instrumento M&aacute;gico
 					</label>
 				</fieldset>
+				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 		</form>
 	</section>
