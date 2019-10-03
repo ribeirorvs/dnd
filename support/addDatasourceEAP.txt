@@ -2,4 +2,7 @@ batch
 /subsystem=datasources/jdbc-driver=mariadb:add(driver-module-name=org.mariadb, driver-name=mariadb)
 
 data-source add --name=MariaDBDS --jndi-name=java:jboss/dungeons --driver-name=mariadb --connection-url=jdbc:mysql://localhost:3306/dungeons --user-name=dnd --password=dungeons --validate-on-match=true --background-validation=false --valid-connection-checker-class-name=org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker --exception-sorter-class-name=org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter
+
+/subsystem=datasources/data-source=MariaDBDS:test-connection-in-pool
+
 run-batch
