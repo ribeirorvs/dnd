@@ -1,2 +1,3 @@
 <body>
-	<section class="row">
+	<section class="container-fluid">
+		<div class="row">
