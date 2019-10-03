@@ -2,7 +2,7 @@
 	<section class="list-group">
 		<form action="SearchTalent.do" method="post">
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#nivelDiv">Nivel</a>
-			<div id="nivelDiv" class="collapse">
+			<div id="nivelDiv" class="collapse show">
 				<fieldset class="form-group">
 					<select name="nivel" class="form-control" id="nivel">
 						<option value="1">1</option>
@@ -29,7 +29,7 @@
 				</fieldset>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#raceDiv">Raça</a>
-			<div id="raceDiv" class="collapse show">
+			<div id="raceDiv" class="collapse">
 				<fieldset class="form-group">
 					<select name="race" class="form-control" id="race">
 						<option value="all">Selecione</option>
