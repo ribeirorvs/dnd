@@ -1,15 +1,6 @@
 <nav class="col-sm-3">
 	<section class="list-group">
 		<form action="SearchTalent.do" method="post">
-			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#raceDiv">Raça</a>
-			<div id="raceDiv" class="collapse show">
-				<fieldset class="form-group">
-					<select name="race" class="form-control" id="race">
-						<option value="all">Selecione</option>
-						<option value="barbaro">Barbaro</option>
-					</select>
-				</fieldset>
-			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#nivelDiv">Nivel</a>
 			<div id="nivelDiv" class="collapse">
 				<fieldset class="form-group">
@@ -34,6 +25,15 @@
 						<option value="18">18</option>
 						<option value="19">19</option>
 						<option value="20">20</option>
+					</select>
+				</fieldset>
+			</div>
+			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#raceDiv">Raça</a>
+			<div id="raceDiv" class="collapse show">
+				<fieldset class="form-group">
+					<select name="race" class="form-control" id="race">
+						<option value="all">Selecione</option>
+						<option value="barbaro">Barbaro</option>
 					</select>
 				</fieldset>
 			</div>
