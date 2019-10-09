@@ -3,12 +3,21 @@
  */
 package model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.sun.istack.NotNull;
+
 /**
  * @author roribeir
  *
  */
+@Entity
+@Table(name = "talentos")
 public class talent {
-    private String books;
+	private int id;
+	private String books;
     private String name;
     private String requirements;
     private String type;
@@ -17,12 +26,18 @@ public class talent {
     private String classes;
     private String style;
     private String bonus;
-    private String hability;
+    private String hability; 
     private String magic;
     private String skill;
     private String description;
     private String normal;
     private String special;
+    public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
     public String getBooks() {
         return books;
     }

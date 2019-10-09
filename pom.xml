@@ -24,13 +24,6 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>5.4.5.Final</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
-		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>8.0.1</version>
-			<scope>provided</scope>
-		</dependency>
 	</dependencies>
 
 	<properties>
