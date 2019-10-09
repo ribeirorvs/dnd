@@ -25,6 +25,6 @@ public abstract class GenericDAO<Entity> {
 		em.remove(entity);
 	}
 	
-	public abstract void find(Entity entity);
+	public abstract Entity find(Entity entity);
 	
 }

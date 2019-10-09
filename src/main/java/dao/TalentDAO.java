@@ -3,6 +3,8 @@
  */
 package dao;
 
+import java.util.List;
+
 import model.Talent;
 
 /**
@@ -10,11 +12,9 @@ import model.Talent;
  *
  */
 public class TalentDAO extends GenericDAO<Talent> {
-
 	@Override
-	public void find(Talent entity) {
-		// TODO Auto-generated method stub
-		
+	public Talent find(Talent talent) {
+		return em.find(Talent.class, talent);
 	}
 
 }
