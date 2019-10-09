@@ -4,10 +4,7 @@
 package model;
 
 import javax.persistence.Entity;
-import javax.persistence.Id;
 import javax.persistence.Table;
-
-import com.sun.istack.NotNull;
 
 /**
  * @author roribeir
@@ -20,7 +17,7 @@ public class talent {
 	private String books;
     private String name;
     private String requirements;
-    private String type;
+    private String types;
     private boolean warrior;
     private String race;
     private String classes;
@@ -56,11 +53,11 @@ public class talent {
     public void setRequirements(String requirements) {
         this.requirements = requirements;
     }
-    public String getType() {
-        return type;
+    public String getTypes() {
+        return types;
     }
-    public void setType(String type) {
-        this.type = type;
+    public void setTypes(String types) {
+        this.types = types;
     }
     public boolean isWarrior() {
         return warrior;
@@ -130,7 +127,7 @@ public class talent {
     }
     @Override
     public String toString() {
-        return "talent [books=" + books + ", name=" + name + ", requirements=" + requirements + ", type=" + type
+        return "talent [books=" + books + ", name=" + name + ", requirements=" + requirements + ", type=" + types
                 + ", warrior=" + warrior + ", race=" + race + ", classes=" + classes + ", style=" + style + ", bonus="
                 + bonus + ", hability=" + hability + ", magic=" + magic + ", skill=" + skill + ", description="
                 + description + ", normal=" + normal + ", special=" + special + "]";
