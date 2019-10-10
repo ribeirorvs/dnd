@@ -5,4 +5,4 @@
  * @author roribeir
  *
  */
-package servlet;
+package dungeons.servlet;

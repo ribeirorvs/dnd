@@ -1,7 +1,7 @@
 /**
  * 
  */
-package model;
+package dungeons.model;
 
 import javax.persistence.Entity;
 import javax.persistence.NamedQuery;

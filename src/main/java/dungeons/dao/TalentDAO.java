@@ -1,10 +1,11 @@
 /**
  * 
  */
-package dao;
+package dungeons.dao;
 
 import java.util.List;
-import model.Talent;
+
+import dungeons.model.Talent;
 
 /**
  * @author roribeir

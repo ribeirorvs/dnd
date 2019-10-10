@@ -1,4 +1,4 @@
-package servlet;
+package dungeons.servlet;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao.TalentDAO;
+import dungeons.dao.TalentDAO;
 
 /**
  * Servlet implementation class SearchTalent

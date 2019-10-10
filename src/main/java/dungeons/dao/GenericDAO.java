@@ -1,7 +1,7 @@
 /**
  * 
  */
-package dao;
+package dungeons.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -12,7 +12,7 @@ import javax.persistence.PersistenceContext;
  */
 public abstract class GenericDAO<Entity> {
 	
-	@PersistenceContext
+	@PersistenceContext(unitName="dungeons")
 	protected EntityManager em;
 	
 	public void insert(Entity entity) {

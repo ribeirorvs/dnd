@@ -5,4 +5,4 @@
  * @author roribeir
  *
  */
-package dao;
+package dungeons.dao;
