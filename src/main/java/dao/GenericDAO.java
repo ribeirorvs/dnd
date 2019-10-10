@@ -4,6 +4,7 @@
 package dao;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 
 /**
  * @author roribeir
@@ -11,6 +12,7 @@ import javax.persistence.EntityManager;
  */
 public abstract class GenericDAO<Entity> {
 	
+	@PersistenceContext
 	protected EntityManager em;
 	
 	public void insert(Entity entity) {

@@ -4,7 +4,6 @@
 package dao;
 
 import java.util.List;
-
 import model.Talent;
 
 /**
@@ -13,8 +12,11 @@ import model.Talent;
  */
 public class TalentDAO extends GenericDAO<Talent> {
 	
+	public TalentDAO() {}
+	
 	public List<Talent> findAllTalents(){
-		return em.createNamedQuery("getAllTalents", Talent.class).getResultList();
+		List<Talent> t = em.createNamedQuery("getAllTalents", Talent.class).getResultList();
+		return t;
 	}
 	
 	@Override
