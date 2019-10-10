@@ -4,6 +4,7 @@
 package dungeons.model;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
@@ -15,7 +16,10 @@ import javax.persistence.Table;
 @Table(name = "talent")
 @NamedQuery(name = "getAllTalents", query = "SELECT t FROM Talent t")
 public class Talent {
+	
+	@Id
 	private int id;
+	
 	private String books;
     private String name;
     private String requirements;
