@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ page import="java.util.*" %>
+	pageEncoding="UTF-8"%>
+<%@ page import="java.util.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +9,8 @@
 </head>
 <body>
 	<%
-		String styles = (String) request.getAttribute("styles");
-		out.print("<br>Try: " + styles);
+		String talent = (String) request.getAttribute("talent");
+		out.print("<br>Try: " + talent);
 	%>
 </body>
 </html>
