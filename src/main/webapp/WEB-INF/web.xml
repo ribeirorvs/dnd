@@ -6,6 +6,17 @@
 			xsi:schemaLocation="http://java.sun.com/xml/ns/javaee	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
 	<display-name>Simple web application</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SearchTalent</display-name>
+		<servlet-name>SearchTalent</servlet-name>
+		<servlet-class>servlet.SearchTalent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchTalent</servlet-name>
+		<url-pattern>/SearchTalent.do</url-pattern>
+	</servlet-mapping>
 
 	<welcome-file-list>
 	    <welcome-file>index.jsp</welcome-file>
