@@ -4,6 +4,7 @@
 package model;
 
 import javax.persistence.Entity;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 /**
@@ -11,7 +12,8 @@ import javax.persistence.Table;
  *
  */
 @Entity
-@Table(name = "talentos")
+@Table(name = "talent")
+@NamedQuery(name = "getAllTalents", query = "SELECT t FROM Talent t")
 public class Talent {
 	private int id;
 	private String books;
