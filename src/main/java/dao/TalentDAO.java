@@ -16,5 +16,4 @@ public class TalentDAO extends GenericDAO<Talent> {
 	public Talent find(Talent talent) {
 		return em.find(Talent.class, talent);
 	}
-
 }
