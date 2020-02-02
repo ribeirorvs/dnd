@@ -11,7 +11,7 @@
 		</description>
 		<display-name>SearchTalent</display-name>
 		<servlet-name>SearchTalent</servlet-name>
-		<servlet-class>servlet.SearchTalent</servlet-class>
+		<servlet-class>dungeons.servlet.SearchTalent</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SearchTalent</servlet-name>

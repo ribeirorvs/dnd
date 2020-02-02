@@ -24,7 +24,7 @@ public class Talent {
     private String name;
     private String requirements;
     private String types;
-    private boolean warrior;
+    private String warrior;
     private String race;
     private String classes;
     private String style;
@@ -65,10 +65,10 @@ public class Talent {
     public void setTypes(String types) {
         this.types = types;
     }
-    public boolean isWarrior() {
+    public String isWarrior() {
         return warrior;
     }
-    public void setWarrior(boolean warrior) {
+    public void setWarrior(String warrior) {
         this.warrior = warrior;
     }
     public String getRace() {
