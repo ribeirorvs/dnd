@@ -25,30 +25,32 @@
 	<%
 		} else {
 			List<Talent> talents = (List<Talent>) request.getAttribute("result");
+			Talent talent;
 			Iterator<Talent> it = talents.iterator();
 			while(it.hasNext()){
-				out.println("<H2>" + it.next().getName() + " [" + it.next().getTypes() + "]</H2>");
-				out.println("<H3>" + it.next().getBooks() + "</H3>");
-				if(null != it.next().getRequirements()){
+				talent = it.next();
+				out.println("<H2>" + talent.getName() + " [" + talent.getTypes() + "]</H2>");
+				out.println("<H3>" + talent.getBooks() + "</H3>");
+				if(null != talent.getRequirements()){
 					out.println("<p class='requisitos'>");
 					out.println("<b>Pré-requisitos:</b>");
-					out.println(it.next().getRequirements());
+					out.println(talent.getRequirements());
 					out.println("</p>");
 				}
 				out.println("<p class='beneficio'>");
 				out.println("<b>Benefício:</b>");
-				out.println(it.next().getDescription());
+				out.println(talent.getDescription());
 				out.println("</p>");
-				if(null != it.next().getNormal()){
+				if(null != talent.getNormal()){
 					out.println("<p class='normal'>");
 					out.println("<b>Normal:</b>");
-					out.println(it.next().getNormal());
+					out.println(talent.getNormal());
 					out.println("</p>");
 				}
-				if(null != it.next().getSpecial()){
+				if(null != talent.getSpecial()){
 					out.println("<p class='special'>");
 					out.println("<b>Especial:</b>");
-					out.println(it.next().getSpecial());
+					out.println(talent.getSpecial());
 					out.println("</p>");
 				}
 			}

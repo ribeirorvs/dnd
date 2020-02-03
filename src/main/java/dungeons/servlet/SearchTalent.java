@@ -33,7 +33,6 @@ public class SearchTalent extends HttpServlet {
 			talents = talent.listAll();
 			String result = talents.toString();
 			request.setAttribute("result", talents);
-			System.out.println(result);
 			RequestDispatcher view = request.getRequestDispatcher("index.jsp");
 			view.forward(request, response);
 		} catch (IOException e) {
@@ -41,12 +40,6 @@ public class SearchTalent extends HttpServlet {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 		}
-		
-		/*
-		request.setAttribute("talents", talent.findAllTalents());
-		RequestDispatcher view = request.getRequestDispatcher("result.jsp");
-		view.forward(request, response);
-		*/
 	}
 
 }
