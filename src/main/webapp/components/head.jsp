@@ -1,4 +1,8 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.Iterator" %>
+<%@ page import="dungeons.model.Talent" %>
+
 
 <!DOCTYPE html>
 <html lang="en">
