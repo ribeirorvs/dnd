@@ -171,7 +171,6 @@
 						<input type="checkbox" name="guerreiro" class="form-check-input" value="s">Talento de Guerreiro
 					</label>
 				</fieldset>
-				<button type="reset" class="btn btn-primary">Reset</button>
 			</div>
 			<a href="#" class="list-group-item" data-toggle="collapse" data-target="#habilidadeDiv">Habilidade</a>
 			<div id="habilidadeDiv" class="collapse">
