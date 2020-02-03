@@ -3,30 +3,27 @@
  */
 package dungeons.dao;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import java.util.List;
 
 /**
  * @author roribeir
  *
  */
-public abstract class GenericDAO<Entity> {
-	
-	@PersistenceContext(unitName="dungeons")
-	protected EntityManager em;
-	
-	public void insert(Entity entity) {
-		em.persist(entity);
-	}
-	
-	public void update(Entity entity) {
-		em.merge(entity);
-	}
-	
-	public void delete(Entity entity) {
-		em.remove(entity);
-	}
-	
-	public abstract Entity find(Entity entity);
-	
+public interface GenericDAO<Entity> {
+
+	public abstract void save(Entity object)
+			throws IllegalArgumentException;
+
+	public abstract void delete(Entity object)
+			throws IllegalArgumentException;
+
+	public abstract List<Entity> list(String query, String name)
+			throws IllegalArgumentException;
+
+	public abstract Entity get(String name, String query)
+			throws IllegalArgumentException;
+
+	public abstract List<Entity> search(String query)
+			throws IllegalArgumentException;
+
 }
