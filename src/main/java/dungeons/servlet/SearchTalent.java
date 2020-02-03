@@ -31,7 +31,6 @@ public class SearchTalent extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		try {
 			talents = talent.listAll();
-			String result = talents.toString();
 			request.setAttribute("result", talents);
 			RequestDispatcher view = request.getRequestDispatcher("index.jsp");
 			view.forward(request, response);

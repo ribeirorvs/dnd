@@ -5,6 +5,7 @@ package dungeons.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
@@ -14,7 +15,15 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "talent")
-@NamedQuery(name = "getAllTalents", query = "SELECT t FROM Talent t")
+@NamedQueries( value = { @NamedQuery(name = "getAllTalents", query = "SELECT t FROM Talent t"),
+						@NamedQuery(name = "getTalents", query = "SELECT t FROM Talent t WHERE "
+								+ "t.style LIKE :style "
+								+ "t.warrior LIKE :warrior"
+								+ "t.bonus LIKE :bonus "
+								+ "t.type LIKE :type "
+								+ "t.hability LIKE :hability "
+								+ "t.magic LIKE :magic "
+								+ "t.skill LIKE :skill")})
 public class Talent {
 	
 	@Id

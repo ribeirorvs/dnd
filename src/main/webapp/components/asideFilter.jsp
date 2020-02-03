@@ -41,37 +41,37 @@
 			<div id="eCombateDiv" class="collapse">
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Uma Mao">Uma Mão
+						<input type="radio" name="style" class="form-check-input" value="Uma Mao">Uma Mão
 					</label>
 				</fieldset>
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Duas Maos">Duas Mãos
+						<input type="radio" name="style" class="form-check-input" value="Duas Maos">Duas Mãos
 					</label>
 				</fieldset>
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Desarmado">Ataque Desarmado
+						<input type="radio" name="style" class="form-check-input" value="Desarmado">Ataque Desarmado
 					</label>
 				</fieldset>
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Distancia">A Distância
+						<input type="radio" name="style" class="form-check-input" value="Distancia">A Distância
 					</label>
 				</fieldset>
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Duas Armas">Duas Armas
+						<input type="radio" name="style" class="form-check-input" value="Duas Armas">Duas Armas
 					</label>
 				</fieldset>
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Montado">Combate Montado
+						<input type="radio" name="style" class="form-check-input" value="Montado">Combate Montado
 					</label>
 				</fieldset>
 				<fieldset class="form-check">
 					<label class="form-check-label">
-						<input type="radio" name="estilos[]" class="form-check-input" value="Especial" title="Manobas especiais: Encontrão, Investida, etc.">Ataques Especiais
+						<input type="radio" name="style" class="form-check-input" value="Especial" title="Manobas especiais: Encontrão, Investida, etc.">Ataques Especiais
 					</label>
 				</fieldset>
 			</div>
